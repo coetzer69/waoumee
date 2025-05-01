@@ -16,12 +16,17 @@ body {
     justify-content: flex-start; */  /* Aligns items to the left */
 /* } */
 .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Keeps it above other elements */
+    
     display: flex;
     align-items: center; /* Center items vertically */
     justify-content: flex-start; /* Align items to the left */
     height: 50px; /* Adjust the height to make it thinner */
     padding: 0 10px; /* Add some horizontal padding for spacing */
-    background-color: #f8f9fa; /* Optional: Set a background color */
+    background-color: #222; /* Optional: Set a background color */
 }
 
 
