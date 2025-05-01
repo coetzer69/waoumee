@@ -16,9 +16,9 @@ body {
     justify-content: flex-start; /* Aligns items to the left */
 }
 
-.navbar img {
+/* .navbar img {
     height: 50px;
-        }
+        }  */
 
 .nav-links {
     list-style: none;
