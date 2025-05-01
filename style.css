@@ -1,21 +1,18 @@
 body {
+            padding-top: 60px; /* Adjust based on navbar height */
             margin: 0;
             font-family: Arial, sans-serif;
         }
 
-
-
 .navbar {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            background-color: #333;
-            padding: 10px 20px;
-            position: fixed; /* Set the navbar to fixed position */
-            top: 0; /* Position the navbar at the top of the page */
-            width: 100%; /* Full width */
-            
-        }
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px 20px;
+    z-index: 1000; /* Keeps it above other elements */
+}
+
 .navbar img {
             height: 50px;
         }
