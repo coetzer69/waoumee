@@ -2,30 +2,30 @@ body {
             margin: 0;
             font-family: Arial, sans-serif;
         }
-        .navbar {
+.navbar {
             display: flex;
             align-items: center;
             justify-content: space-between;
             background-color: #333;
             padding: 10px 20px;
         }
-        .navbar img {
+.navbar img {
             height: 50px;
         }
-        .nav-links {
+.nav-links {
             list-style: none;
             display: flex;
             gap: 20px;
         }
-        .nav-links li {
+.nav-links li {
             display: inline;
         }
-        .nav-links a {
+.nav-links a {
             color: white;
             text-decoration: none;
             font-size: 18px;
             transition: color 0.3s ease;
         }
-        .nav-links a:hover {
+.nav-links a:hover {
             color: #ffcc00;
         }
