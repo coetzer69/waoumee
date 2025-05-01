@@ -75,3 +75,11 @@ body {
 .footer-column a:hover {
     color: #ffcc00;
 }
+.center-img {
+    display: block;
+    margin: auto;
+}
+
+
+
+
