@@ -15,6 +15,9 @@ body {
     align-items: center;
     justify-content: flex-start; /* Aligns items to the left */
 }
+.nav-links-container {
+    flex-grow: 1; /* Ensures links move left */
+}
 
 /* .navbar img {
     height: 50px;
