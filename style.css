@@ -3,7 +3,7 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
-
+/*
 .navbar {
     position: fixed;
     top: 0;
@@ -11,12 +11,23 @@ body {
     background-color: #222;
     padding: 10px 20px;
     z-index: 1000; /* Keeps it above other elements */
-    display: flex;
+    /*  display: flex;
     align-items: center;
-    justify-content: flex-start; /* Aligns items to the left */
+    justify-content: flex-start; */  /* Aligns items to the left */
+/* } */
+.navbar {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: flex-start; /* Align items to the left */
+    height: 50px; /* Adjust the height to make it thinner */
+    padding: 0 10px; /* Add some horizontal padding for spacing */
+    background-color: #f8f9fa; /* Optional: Set a background color */
 }
+
+
+
 .nav-links-container {
-    flex-grow: 1; /* Ensures links move left */
+    margin-left: 20px; /* Add spacing between the logo and the links */
 }
 
 /* .navbar img {
@@ -26,8 +37,9 @@ body {
 .nav-links {
     list-style: none;
     display: flex;
-    gap: 20px;
-    padding-left: 20px; /* Moves links to the left */
+    gap: 15px; /* space between links */
+    margin: 0;
+    padding: 0; /* Moves links to the left */
 }
 .nav-links li {
     display: inline;
