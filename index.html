@@ -1,13 +1,55 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="utf-8" />
-<title>index page</title>
-<link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waoumee Navigation</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #333;
+            padding: 10px 20px;
+        }
+        .navbar img {
+            height: 50px;
+        }
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+        .nav-links li {
+            display: inline;
+        }
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+        .nav-links a:hover {
+            color: #ffcc00;
+        }
+    </style>
 </head>
 <body>
- <h>waoumee</h>
- <p>This is a paragraph.</p>
-<p>This is another paragraph.</p> 
+
+    <nav class="navbar">
+        <a href="index.html">
+            <img src="your-logo.png" alt="Waoumee Logo">
+        </a>
+        <ul class="nav-links">
+            <li><a href="harvester.html">Harvester</a></li>
+            <li><a href="merchandise.html">Merchandise</a></li>
+            <li><a href="company.html">Company</a></li>
+        </ul>
+    </nav>
+
 </body>
 </html>
