@@ -59,6 +59,12 @@ body {
 .nav-links a:hover {
    color: #ffcc00;
         }
+
+.content {
+  max-width: 500px;
+  margin: auto;
+}
+
 .footer {
     background-color: #222; /* Charcoal black */
     color: white;
