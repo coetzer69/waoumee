@@ -15,6 +15,7 @@ body {
     align-items: center;
     justify-content: flex-start; */  /* Aligns items to the left */
 /* } */
+
 .navbar {
     position: fixed;
     top: 0;
