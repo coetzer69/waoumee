@@ -62,7 +62,7 @@ body {
 
 .content {
   max-width: 500px; /* center content */
-  margin: 0; /* auto; */
+  margin: auto;
 }
 
 .footer {
