@@ -1,1 +1,123 @@
+body {
+    padding-top: 70px; /* Adjust based on navbar height */
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+/*
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #222;
+    padding: 10px 20px;
+    z-index: 1000; /* Keeps it above other elements */
+    /*  display: flex;
+    align-items: center;
+    justify-content: flex-start; */  /* Aligns items to the left */
+/* } */
 
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Keeps it above other elements */
+    
+    /*display: flex;*/
+    /* align-items: center;                    enter items vertically */
+    /* justify-content: flex-start;                Align items to the left */
+   /* height: 50px;                             Adjust the height to make it thinner */
+    /* padding: 0 10px;                        Add some horizontal padding for spacing */
+    
+    background-color: #222; /* Optional: Set a background color */
+}
+
+
+
+.nav-links-container {
+    margin-left: 20px; /* Add spacing between the logo and the links */
+}
+
+/* .navbar img {
+    height: 50px;
+        }  */
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px; /* space between links */
+    margin: 0;
+    padding: 0; /* Moves links to the left */
+}
+.nav-links li {
+    display: inline;
+        }
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+        }
+.nav-links a:hover {
+   color: #ffcc00;
+        }
+
+.content {
+  margin: auto;
+}
+
+img {
+  max-width: 100%; /*img control*/
+  /*height: auto;*/
+}
+
+.footer {
+    background-color: #222; /* Charcoal black */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width:100%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    max-width: 100%;
+    margin: auto;
+}
+
+.footer-column {
+    flex: 1;
+    padding: 10px;
+}
+/*
+.footer-column img {
+    height: 60px;
+}
+*/
+.footer-column h3 {
+    color: #ffcc00; /* Soft orange touch */
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin: 5px 0;
+}
+
+.footer-column a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-column a:hover {
+    color: #ffcc00;
+}
+.center-img {
+    display: block;
+    margin: auto;
+}
