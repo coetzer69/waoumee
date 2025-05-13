@@ -61,7 +61,7 @@ body {
         }
 
 .content {
-  max-width: 500px; /* center content */
+  max-width: 100%; /* center content */
   margin: auto;
 }
 
@@ -90,11 +90,11 @@ img {
     flex: 1;
     padding: 10px;
 }
-
+/*
 .footer-column img {
     height: 60px;
 }
-
+*/
 .footer-column h3 {
     color: #ffcc00; /* Soft orange touch */
 }
