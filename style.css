@@ -67,7 +67,7 @@ body {
 
 img {
   max-width: 100%; /*img control*/
-  height: auto;
+  /*height: auto;*/
 }
 
 .footer {
